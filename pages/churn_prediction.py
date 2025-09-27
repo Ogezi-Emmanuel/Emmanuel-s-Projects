@@ -3,12 +3,10 @@ import pandas as pd
 import joblib
 
 # Function to load CSS
-def load_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the custom CSS
-load_css("c:/Users/user/Emmanuel's Projects/styles/style.css")
+with open("../styles/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the trained models
 try:

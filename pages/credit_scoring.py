@@ -19,12 +19,10 @@ def get_month_names(num_months=6):
 month_names = get_month_names()
 
 # Function to load CSS
-def load_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the custom CSS
-load_css("../styles/style.css")
+with open("../styles/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- Page Configuration ---
 st.set_page_config(page_title="Credit Scoring", page_icon="📊", layout="wide")
