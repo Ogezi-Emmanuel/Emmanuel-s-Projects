@@ -4,3 +4,7 @@ scikit-learn
 joblib
 streamlit-extras
 streamlit-option-menu
+seaborn
+matplotlib
+google-generativeai
+lightgbm
