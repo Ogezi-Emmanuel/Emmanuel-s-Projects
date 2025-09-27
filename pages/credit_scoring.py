@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -21,7 +22,7 @@ month_names = get_month_names()
 # Function to load CSS
 
 # Load the custom CSS
-with open("../styles/style.css") as f:
+with open(os.path.join(os.path.dirname(__file__), "..", "styles", "style.css")) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- Page Configuration ---

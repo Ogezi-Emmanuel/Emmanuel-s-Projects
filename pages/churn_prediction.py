@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -5,7 +6,7 @@ import joblib
 # Function to load CSS
 
 # Load the custom CSS
-with open("../styles/style.css") as f:
+with open(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "styles", "style.css"))) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the trained models
