@@ -121,7 +121,7 @@ with tab1:
     # Load the appropriate model
     @st.cache_resource
     def load_lgbm_model():
-        model_path = "../models/credit_scoring_lgbm_model.joblib"
+        model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models", "credit_scoring_lgbm_model.joblib"))
         try:
             model = joblib.load(model_path)
             return model
@@ -170,7 +170,7 @@ with tab2:
     # Load the appropriate model
     @st.cache_resource
     def load_log_reg_model():
-        model_path = "../models/credit_scoring_log_reg_pipeline.joblib"
+        model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models", "credit_scoring_log_reg_pipeline.joblib"))
         try:
             pipeline = joblib.load(model_path)
             return pipeline
