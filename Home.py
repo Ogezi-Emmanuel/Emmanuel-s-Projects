@@ -118,7 +118,7 @@ p {
 with st.container():
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("C:/Users/user/Emmanuel's Projects/images/headshot_image.jpeg", width=250)
+        st.image("images/headshot_image.jpeg", width=250)
     with col2:
         st.title("Emmanuel's Projects")
         st.write("Hi, I am Emmanuel, a passionate data scientist with a knack for turning complex data into actionable insights.")

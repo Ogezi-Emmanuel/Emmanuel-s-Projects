@@ -18,7 +18,7 @@ except FileNotFoundError:
     st.error("Error: Model files not found. Please ensure 'churn_prediction_log_reg_model.joblib' and 'churn_prediction_random_forest_model.joblib' are in the 'models' directory.")
     st.stop()
 
-st.set_page_config(page_title="Churn Prediction", layout="wide", page_icon="C:/Users/user/Emmanuel's Projects/images/logo.jpeg")
+st.set_page_config(page_title="Churn Prediction", layout="wide", page_icon="../images/logo.jpeg")
 
 st.title("Proactive Churn Prediction for a Digital Bank")
 

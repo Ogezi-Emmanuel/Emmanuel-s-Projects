@@ -24,7 +24,7 @@ def load_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the custom CSS
-load_css("c:/Users/user/Emmanuel's Projects/styles/style.css")
+load_css("../styles/style.css")
 
 # --- Page Configuration ---
 st.set_page_config(page_title="Credit Scoring", page_icon="📊", layout="wide")
@@ -122,7 +122,7 @@ with tab1:
     # Load the appropriate model
     @st.cache_resource
     def load_lgbm_model():
-        model_path = "c:/Users/user/Emmanuel's Projects/models/credit_scoring_lgbm_model.joblib"
+        model_path = "../models/credit_scoring_lgbm_model.joblib"
         try:
             model = joblib.load(model_path)
             return model
@@ -171,7 +171,7 @@ with tab2:
     # Load the appropriate model
     @st.cache_resource
     def load_log_reg_model():
-        model_path = "c:/Users/user/Emmanuel's Projects/models/credit_scoring_log_reg_pipeline.joblib"
+        model_path = "../models/credit_scoring_log_reg_pipeline.joblib"
         try:
             pipeline = joblib.load(model_path)
             return pipeline

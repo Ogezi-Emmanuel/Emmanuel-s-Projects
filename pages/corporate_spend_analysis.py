@@ -5,7 +5,7 @@ import time
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="Corporate Spend Analysis & AI Categorization", layout="wide", page_icon="C:/Users/user/Emmanuel's Projects/images/logo.jpeg")
+st.set_page_config(page_title="Corporate Spend Analysis & AI Categorization", layout="wide", page_icon="../images/logo.jpeg")
 
 st.markdown("""
 <style>
