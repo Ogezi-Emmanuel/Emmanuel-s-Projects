@@ -1,0 +1,6 @@
+streamlit
+pandas
+scikit-learn
+joblib
+streamlit-extras
+streamlit-option-menu

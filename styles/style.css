@@ -1,0 +1,102 @@
+.stApp {
+    background-color: #1a001a; /* Dark purple background */
+    color: #e0b0ff; /* Light purple text */
+    padding: 2rem;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Modern font */
+}
+
+.stSidebar {
+    background-color: #2a002a; /* Darker purple for the sidebar */
+    color: #e0b0ff;
+    padding: 1rem;
+    border-right: 1px solid #4d004d; /* Subtle border */
+}
+
+.stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e0b0ff; /* Light purple tab text */
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 24px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #330033; /* Medium purple tab background */
+    border-radius: 4px 4px 0px 0px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #4d004d; /* Darker purple on hover */
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #4d004d; /* Darker purple for selected tab */
+    border-bottom: 2px solid #e0b0ff; /* Highlight selected tab */
+}
+
+.credit-result {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+.good-credit {
+    background-color: #660066; /* Purple shade for good credit */
+    color: #e0b0ff;
+    border: 1px solid #e0b0ff;
+}
+
+.bad-credit {
+    background-color: #990099; /* Another purple shade for bad credit */
+    color: #e0b0ff;
+    border: 1px solid #e0b0ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e0b0ff; /* Ensure all headings are light purple */
+    margin-bottom: 0.75rem; /* Increased margin for better spacing */
+    font-weight: 600; /* Slightly bolder headings */
+}
+
+p {
+    line-height: 1.8; /* Improved readability for paragraphs */
+    margin-bottom: 1rem;
+    font-size: 1.05rem; /* Slightly larger paragraph text */
+}
+
+.stButton>button {
+    background-color: #4d004d; /* Purple button background */
+    color: #e0b0ff;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    font-weight: 500; /* Slightly bolder button text */
+}
+
+.stButton>button:hover {
+    background-color: #660066; /* Darker purple on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Styling for general containers to give them a card-like appearance */
+.stContainer {
+    background-color: #2a002a; /* Darker purple for containers */
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4); /* More prominent shadow for depth */
+    border: 1px solid #4d004d; /* Subtle border */
+}
