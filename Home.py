@@ -145,14 +145,14 @@ st.write("---")
 
 # --- SKILLS & TOOLS ---
 st.header("Skills & Tools")
-st.subheader("Programming Languages")
+st.subheader("Languages")
 st.write("- Python, SQL")
-st.subheader("Dashboard Tools")
-st.write("- PowerBI, Excel")
-st.subheader("Frameworks")
-st.write("- Pandas, Numpy, Scikit-Learn, Matplotlib")
-st.subheader("Other Skills")
-st.write("- API Integrations")
+st.subheader("Libraries & Frameworks")
+st.write("- Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib, Seaborn")
+st.subheader("Core Competencies")
+st.write("- Machine Learning (Classification & Regression), Data Analysis, Business Intelligence, Data Visualization, AI Prompting")
+st.subheader("Tools")
+st.write("- Power BI, Excel, Git & GitHub")
 
 st.write("---")
 
