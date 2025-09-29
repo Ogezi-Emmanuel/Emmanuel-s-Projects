@@ -143,6 +143,19 @@ with st.expander("About Me"):
 
 st.write("---")
 
+# --- SKILLS & TOOLS ---
+st.header("Skills & Tools")
+st.subheader("Programming Languages")
+st.write("- Python, SQL")
+st.subheader("Dashboard Tools")
+st.write("- PowerBI, Excel")
+st.subheader("Frameworks")
+st.write("- Pandas, Numpy, Scikit-Learn, Matplotlib")
+st.subheader("Other Skills")
+st.write("- API Integrations")
+
+st.write("---")
+
 # --- FEATURED PROJECTS ---
 st.header("Featured Projects")
 
