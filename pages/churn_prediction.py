@@ -22,6 +22,11 @@ st.set_page_config(page_title="Churn Prediction", layout="wide", page_icon="../i
 st.title("Proactive Churn Prediction for a Digital Bank")
 
 st.markdown("""
+_For a deeper dive into the story and strategy behind this project, you can read the full article on Medium._
+**[Read the Full Story on Medium](https://medium.com/@Emmysunday/i-created-40-000-bank-customers-to-predict-the-future-42bdbbf9e682)**
+""")
+
+st.markdown("""
 This project aims to predict customer churn for a digital bank, helping to identify at-risk customers proactively.
 The models were trained on a dataset of 40,000 rows with the following features:
 - `CustomerId`: Unique identifier for each customer.

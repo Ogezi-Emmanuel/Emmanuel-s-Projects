@@ -117,6 +117,11 @@ p {
 st.title("AI-Powered Corporate Spend Analysis for Fintech")
 
 st.markdown("""
+_For a deeper dive into the story and strategy behind this project, you can read the full article on Medium._
+**[Read the Full Story on Medium](https://medium.com/@Emmysunday/i-ditched-the-clean-datasets-and-took-on-48-messy-government-files-heres-what-happened-2b114e53312e)**
+""")
+
+st.markdown("""
 This project simulates a core product offering of a modern spend management fintech company (like Ramp, Brex, or Moniepoint). It involves a two-part analysis of real-world corporate credit card transaction data from the UK Government to uncover spending patterns and build an intelligent, automated expense categorization tool.
 
 The goal is to demonstrate a full-stack data analysis workflow, from processing raw, multi-source data to deriving actionable business insights and building a value-add AI feature.

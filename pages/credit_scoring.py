@@ -31,6 +31,11 @@ st.set_page_config(page_title="Credit Scoring", page_icon="📊", layout="wide")
 st.title("Predictive Credit Scoring (Credit Card Default)")
 
 st.markdown("""
+_For a deeper dive into the story and strategy behind this project, you can read the full article on Medium._
+**[Read the Full Story on Medium](https://medium.com/@Emmysunday/i-looked-into-the-financial-future-of-30-000-people-heres-what-i-saw-3ea195f7ed39)**
+""")
+
+st.markdown("""
 This project aims to predict customer churn for a digital bank, helping to identify at-risk customers proactively. The models were trained on a dataset of 30,000 rows with the following features:
 
 - CustomerId: Unique identifier for each customer.
