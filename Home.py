@@ -174,14 +174,14 @@ st.header("Featured Projects")
 with st.container():
     st.subheader("Credit Scoring Model")
     st.write("A machine learning model to predict credit risk based on various financial and demographic factors.")
-    st.markdown("[View Project](/credit_scoring)")
+    st.page_link("pages/credit_scoring.py", label="View Project", icon="📊")
 
 with st.container():
     st.subheader("Customer Churn Prediction")
     st.write("Developed a model to predict customer churn for a digital bank, leading to targeted retention strategies.")
-    st.markdown("[View Project](/churn_prediction)")
+    st.page_link("pages/churn_prediction.py", label="View Project", icon="📉")
 
 with st.container():
     st.subheader("Corporate Spend Analysis & AI Categorization")
     st.write("This project analyzes corporate card transactions to uncover insights and builds an AI-powered tool for expense categorization using Google's Gemini.")
-    st.markdown("[View Project](/corporate_spend_analysis)")
+    st.page_link("pages/corporate_spend_analysis.py", label="View Project", icon="💳")
