@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Emmanuel's Projects",
-    page_icon="C:/Users/user/Emmanuel's Projects/images/logo.jpeg",
+    page_icon="images/logo.jpeg",
     layout="wide"
 )
 
