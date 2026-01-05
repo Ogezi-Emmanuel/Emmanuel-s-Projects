@@ -100,3 +100,34 @@ p {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4); /* More prominent shadow for depth */
     border: 1px solid #4d004d; /* Subtle border */
 }
+
+/* Custom styles for Streamlit messages to match the theme */
+.st-emotion-cache-1ldf010 { /* Target for st.success */
+    background-color: #660066; /* Purple shade for success */
+    color: #e0b0ff;
+    border-left: 5px solid #e0b0ff;
+}
+
+.st-emotion-cache-1ldf010 p {
+    color: #e0b0ff;
+}
+
+.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010 { /* Target for st.warning */
+    background-color: #990099; /* Another purple shade for warning */
+    color: #e0b0ff;
+    border-left: 5px solid #e0b0ff;
+}
+
+.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010 p {
+    color: #e0b0ff;
+}
+
+.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010 { /* Target for st.error */
+    background-color: #cc00cc; /* Even another purple shade for error */
+    color: #e0b0ff;
+    border-left: 5px solid #e0b0ff;
+}
+
+.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010.st-emotion-cache-1ldf010 p {
+    color: #e0b0ff;
+}

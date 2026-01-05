@@ -185,3 +185,8 @@ with st.container():
     st.subheader("Corporate Spend Analysis & AI Categorization")
     st.write("This project analyzes corporate card transactions to uncover insights and builds an AI-powered tool for expense categorization using Google's Gemini.")
     st.page_link("pages/corporate_spend_analysis.py", label="View Project", icon="💳")
+
+with st.container():
+    st.subheader("RetentionAI: Turn Churn into Revenue")
+    st.write("This tool automates the process of identifying 'At-Risk' customers and winning them back using Generative AI.")
+    st.page_link("pages/retention_ai.py", label="View Project", icon="🚀")
