@@ -121,7 +121,7 @@ with st.container():
         st.image("images/headshot_image.jpeg", width=250)
     with col2:
         st.title("Emmanuel's Projects")
-        st.write("Hi, I am Emmanuel, a passionate data scientist with a knack for turning complex data into actionable insights.")
+        st.write("Hi, I am Emmanuel, a passionate data scientist with a passion for turning complex data into actionable insights.")
         st.write("[GitHub](https://github.com/Ogezi-Emmanuel) | [LinkedIn](https://www.linkedin.com/in/emmanuel-ogezi-2501932b6) | [Medium](https://medium.com/@Emmysunday) | [Email](mailto:ogeziemmanuelsunday@gmail.com)")
 
 st.write("---")

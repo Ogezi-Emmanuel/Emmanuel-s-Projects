@@ -24,7 +24,7 @@ load_css()
 st.title("🚀 RetentionAI: Turn Churn into Revenue")
 
 st.markdown("""
-_This tool automates the process of identifying 'At-Risk' customers and winning them back using Generative
+_This tool automates the process of identifying 'At-Risk' customers and winning them back using Generative AI
 """)
 
 st.markdown("""
