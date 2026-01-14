@@ -49,6 +49,14 @@ This suite of applications is designed to tackle various aspects of business int
     *   Provide a user-friendly interface for inputting customer context and refining AI-generated content.
     *   Empower businesses to efficiently win back customers and boost revenue.
 
+### 5. ML Playground Hub
+
+*   **Goal**: To provide an interactive environment for exploring fundamental Machine Learning concepts.
+*   **Objectives**:
+    *   Offer interactive modules for understanding statistical and probabilistic concepts.
+    *   Include detailed explanations and visualizations for algorithms like Multiple Linear Regression.
+    *   Serve as a learning and experimentation platform for ML enthusiasts.
+
 ## Key Technologies and Methodologies Used
 
 My projects are built using a modern data science and web development stack, emphasizing efficiency, scalability, and user experience:
@@ -79,4 +87,4 @@ Through these projects, I aim to demonstrate not just technical proficiency, but
 
 ## License Information
 
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.

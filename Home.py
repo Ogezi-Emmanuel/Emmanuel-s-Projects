@@ -2,8 +2,28 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Emmanuel's Projects",
-    page_icon="images/logo.jpeg",
-    layout="wide"
+    page_icon="👋",
+    layout="wide",
+)
+
+# Custom sidebar
+with st.sidebar:
+    st.image("images/logo.jpeg", width=200)
+    st.title("Emmanuel's Projects")
+    st.page_link("Home.py", label="Home", icon="🏠")
+    st.page_link("pages/churn_prediction.py", label="Churn Prediction", icon="📉")
+    st.page_link("pages/corporate_spend_analysis.py", label="Corporate Spend Analysis", icon="💰")
+    st.page_link("pages/credit_scoring.py", label="Credit Scoring", icon="💳")
+    st.page_link("pages/retention_ai.py", label="Retention AI", icon="💡")
+    st.page_link("pages/_ML_Playground_Hub.py", label="ML Playground Hub", icon="🧠")
+
+st.write("# Welcome to Emmanuel's Projects! 👋")
+
+st.markdown(
+    """
+    This is a collection of various data science and machine learning projects.
+    Use the sidebar to navigate through the different applications.
+    """
 )
 
 # Custom CSS for styling
