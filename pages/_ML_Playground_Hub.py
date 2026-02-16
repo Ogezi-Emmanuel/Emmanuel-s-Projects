@@ -32,3 +32,4 @@ with st.container():
     st.subheader("Available ML Modules:")
 
     st.page_link("pages/_Multiple_Linear_Regression.py", label="Multiple Linear Regression", icon="📈")
+    st.page_link("pages/Variable_Selection_and_Model_Persistence.py", label="Variable Selection & Model Persistence", icon="🔧")
