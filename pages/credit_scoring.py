@@ -28,23 +28,23 @@ with open(os.path.join(os.path.dirname(__file__), "..", "styles", "style.css")) 
 # --- Page Configuration ---
 st.set_page_config(page_title="Credit Scoring", page_icon="📊", layout="wide")
 
-st.title("Predictive Credit Scoring (Credit Card Default)")
+st.title("Alternative Credit Risk & Default Prediction Engine")
 
 st.markdown("""
-_For a deeper dive into the story and strategy behind this project, you can read the full article on Medium._
+_For a deeper dive into the architecture and mathematical strategy behind this risk engine, you can read the full technical breakdown on Medium._
 **[Read the Full Story on Medium](https://medium.com/@Emmysunday/i-looked-into-the-financial-future-of-30-000-people-heres-what-i-saw-3ea195f7ed39)**
 """)
 
 st.markdown("""
-This project aims to predict customer churn for a digital bank, helping to identify at-risk customers proactively. The models were trained on a dataset of 30,000 rows with the following features:
+This risk architecture is designed to help digital lenders proactively predict the probability of credit default, optimizing underwriting processes and reducing Non-Performing Loans (NPLs). 
 
-- CustomerId: Unique identifier for each customer.
-- Tenure: Number of months the customer has been with the bank.
-- Balance: Current account balance.
-- LoginFrequency_LastMonth: Number of times the customer logged in during the last month.
-- Transactions_LastMonth: Number of transactions made in the last month.
-- ServiceCalls_Last3Months: Number of service calls made in the last 3 months.
-- UsedSavingsFeature: Whether the customer used a savings feature (0 = No, 1 = Yes).
+The underlying dual-model system (utilizing **LightGBM** for complex correlations and **Logistic Regression** for baseline transparency) was trained on a rigorous dataset of 30,000 credit profiles. The engine evaluates risk using "Trended Credit Data" across the following core parameters:
+
+- **Limit Balance:** The total credit exposure or allocated loan limit.
+- **Borrower Demographics:** Age, Gender, Education, and Marital Status to establish baseline risk profiles.
+- **Historical Repayment Status (6-Month Horizon):** A month-by-month tracking of repayment latency (January to June) to capture micro-delinquencies before they become full defaults.
+- **Debt Accumulation Metrics:** Monthly bill statement tracking to monitor credit utilization velocity.
+- **Liquidity & Payment Capacity:** Analysis of previous payment amounts across 6 months to determine the borrower's real-world capacity to service debt obligations.
 """)
 
 # Define input features based on the provided list, selecting the most important ones
